@@ -1,3 +1,5 @@
+versione: '3'
+
 volumes:
   portainer_data:
     external: true

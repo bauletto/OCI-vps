@@ -11,4 +11,4 @@ init:
 
 portainer:
 	docker volume create portainer_data
-	$(call docker_rebuild("portainer","docker/portainer"))
+	$(call docker_rebuild,"portainer","docker/portainer")
